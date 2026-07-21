@@ -216,3 +216,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# ─────────────────────────────────────────────
+# Project-specific: participant data and stimulus
+# ─────────────────────────────────────────────
+
+# raw participant data — never commit
+data/raw/
+data_with_recovered/
+*.wav
+*.mp4
+*.avi
+*_regular.txt
+DataCollectionInforperParticipant.xlsx
+*demograph*
+
+# stimulus (third-party copyright, PRO-ED Inc.)
+*cookie*theft*
+Figures/fig_scanpath_*
+
+# large model artifacts
+*.pt
+*.pth
+*.ckpt
